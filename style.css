@@ -78,6 +78,7 @@ body{
     height: fit-content;
     display: flex;
     align-items: start;
+    flex-direction: column;
 }
 
 .parent{
@@ -147,5 +148,152 @@ body{
     white-space: nowrap;
     font-size: 0.6vw;
 }
+/* =================================== */
+
+.title{
+    width: 65%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.title a{
+    color: #165bbd;
+}
 
 
+
+.section2{
+    display: flex;
+    width: 65%;
+    /* background: #000; */
+    flex-direction: column;
+    margin-bottom: 15vw;
+}
+
+.section2 h3{
+    color: white;
+    font-weight: normal;
+    font-family: "Preahvihear";
+    padding-bottom: 4vw;
+
+
+}
+
+.parent2{
+    display: flex;
+    gap: 1vw;
+    width: 100%;
+    /* background: #000; */
+    height: 100%;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+
+}
+
+.we{
+    /* background: white; */
+    border-top: 1px solid #673cde;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    color: white;
+    width: 45%;
+    padding: 1vw 0vw;
+    background: linear-gradient(to right, #130429, #321161);
+    border-radius: 5px;
+    /* font-family: "Preahvihear"; */
+}
+
+.we img{
+    width: 8vw;
+}
+
+.we h4{
+    font-weight: normal;
+    font-size: 1.4vw;
+    
+}
+
+.we p{
+    font-size: 0.8vw;
+}
+
+.we a{
+    background: #190a2e;
+    border: 1px solid #634096;
+    border-radius: 5px;
+    font-size: 0.5vw;
+    font-weight: normal;
+    padding: 5px 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.section3 {
+    width: 65%;
+    display: flex;
+    justify-content: center;
+}
+
+.section4{
+    display: flex;
+    width: 65%;
+     position: relative;
+
+}
+
+.left4{
+    width: 50%;
+
+}
+.left4 p{
+    color: #673cde;
+    font-size: 0.8vw;
+}
+
+.left4 h1{
+    color: white;
+    font-size: 2vw;
+    padding-bottom: 2vw;
+}
+.left4 img{
+    width: 90%;
+}
+.right4{
+    width: 50%;
+}
+
+.card4{
+   
+    /* background: #000; */
+    /* background: url("./src/Card.png"); */
+}
+
+
+.card4 p{
+    position: absolute;
+    color: white;
+    font-weight: lighter;
+    font-size: 1vw;
+    line-height: 1.7vw;
+    width: 60%;
+    height: auto;
+    z-index: 2;
+    background: url("/src/Card.png");
+    background-repeat: no-repeat;
+    border-radius: 10px; 
+    padding: 10px 15px;
+}
+
+.right4{
+    background: #2b0b3a;
+    border-radius: 10px;
+}
+
+
+.right4 img{
+    width: 100%;
+    /* object-fit: cover; */
+}
