@@ -285,6 +285,7 @@ body{
     background-repeat: no-repeat;
     border-radius: 10px; 
     padding: 10px 15px;
+    /* left: 3%; */
 }
 
 .right4{
@@ -296,4 +297,97 @@ body{
 .right4 img{
     width: 100%;
     /* object-fit: cover; */
+}
+
+.icons4{
+    position: absolute;
+    top: 70%;
+    display: flex;
+    gap: 1vw;
+    color: white;
+}
+
+.section5{
+    display: flex;
+    width: 65%;
+     position: relative;
+     gap: 10vw;
+     /* flex-direction: row-reverse; */
+    /* align-items: right; */
+
+}
+
+.left5{
+    width: 50%;
+    /* align-items: right; */
+    
+}
+.left5 img{
+    width: 90%;
+}
+.right5{
+    width: 50%;
+    justify-content: end;
+    align-items: end;
+} 
+.right5 p{
+    color: #7643a6;
+    font-size: 0.8vw;
+}
+
+.right5 h1{
+    color: white;
+    font-size: 2vw;
+    padding-bottom: 2vw;
+}
+
+
+
+.card5 p{
+    position: absolute;
+    color: white;
+    font-weight: lighter;
+    font-size: 1vw;
+    line-height: 1.7vw;
+    width: 60%;
+    height: auto;
+    z-index: 2;
+    background: url("/src/Card.png");
+    background-repeat: no-repeat;
+    border-radius: 10px; 
+    padding: 10px 15px;
+    right: 3%;
+}
+.left5{
+    background: #2b0b3a;
+    border-radius: 10px;
+}
+
+.right5 img{
+    width: 100%;
+    /* object-fit: cover; */
+}
+
+.icons5{
+    position: absolute;
+    top: 80%;
+    right: 0;
+    display: flex;
+    gap: 1vw;
+    color: white;
+
+}
+
+.lastfooter{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.lasticons{
+    display: flex;
+    gap: 2vw;
+    padding-top: 3vw;
+    color: white;
 }
