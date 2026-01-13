@@ -15,6 +15,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    overflow-x: hidden;
 
 }
 
@@ -307,7 +308,10 @@ body{
     color: white;
 }
 
+/* ====================================== */
+
 .section5{
+    margin-top: 3vw;
     display: flex;
     width: 65%;
      position: relative;
@@ -318,21 +322,26 @@ body{
 }
 
 .left5{
-    width: 50%;
+    /* width: 80%; */
+    background: #2b0b3a;
+    border-radius: 10px;
     /* align-items: right; */
     
 }
 .left5 img{
     width: 90%;
+
 }
 .right5{
     width: 50%;
-    justify-content: end;
+    display: flex;
     align-items: end;
+    flex-direction: column;
 } 
 .right5 p{
     color: #7643a6;
     font-size: 0.8vw;
+    
 }
 
 .right5 h1{
@@ -347,26 +356,19 @@ body{
     position: absolute;
     color: white;
     font-weight: lighter;
-    font-size: 1vw;
+    font-size: 0.7vw;
     line-height: 1.7vw;
-    width: 60%;
+    right: 0%;
+    width: 70%;
     height: auto;
     z-index: 2;
     background: url("/src/Card.png");
     background-repeat: no-repeat;
     border-radius: 10px; 
     padding: 10px 15px;
-    right: 3%;
-}
-.left5{
-    background: #2b0b3a;
-    border-radius: 10px;
+    
 }
 
-.right5 img{
-    width: 100%;
-    /* object-fit: cover; */
-}
 
 .icons5{
     position: absolute;
@@ -379,15 +381,98 @@ body{
 }
 
 .lastfooter{
+    margin-top: 3vw;
     width: 65%;
     display: flex;
     flex-direction: column;
     color: white;
 }
 
+.lastfooter h4{
+    font-size: 2.3vw;
+    margin-bottom: 1vw;
+
+}
+
 .lasticons{
     display: flex;
     gap: 2vw;
-    padding-top: 3vw;
+    padding: 1vw 0vw;
     color: white;
+}
+
+.lasticons i{
+    cursor: pointer;
+}
+
+
+/* tablet screen */
+@media screen and (min-width:690px ) and (max-width: 980px) {
+    
+}
+/* mobile screen */
+@media screen and (min-width: 380px) and (max-width: 680px) {
+    .nav{
+    height: 15%;
+    background-color: #1A0B2E;
+    /* border-bottom:1px white solid; */
+    display: flex;
+    justify-content: center;
+    gap: 30vw;
+    align-items: center;
+    }
+
+    .logo{
+        height: 90%;
+        padding:1vw 0vw;
+    }
+    .logo img{
+        height: 100%;
+        width: 2vw;
+    }
+
+    .menu a{
+        font-size: 1vw;
+    }
+    
+    .parent{
+    /* background: #000; */
+    padding-top: 5vw;
+    height: 420px; /* give children a real height so the background can render */
+    width: 100%;
+    display: flex;
+
+}
+    .profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("./src/Gradient.png") no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    /* background-color: #1A0B2E; */
+    width: 100%;
+    height: 60%;
+    min-height: 40%; /* keep visible even if parent height changes */
+}
+
+.profile img{
+    width: 70%;
+    
+}
+.profile-right {
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.profile-right p{
+    padding-top: 5vw;
+}
+.section3 img{
+    width: 50%;
+    padding-bottom: 5vw;
+}
+
+
 }
